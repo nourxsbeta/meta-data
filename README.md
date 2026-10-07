@@ -1,24 +1,24 @@
-# Discoverability and Metadata Starter
+# Accessibility Conformance Starter
 
-Use this small site for Module 6 practice if you do not want to use your capstone yet.
+Use this small site for Module 5 practice if you do not want to use your capstone yet.
 
 ## Files
 
-- `index.html`: sample page with intentionally weak metadata and link text.
-- `styles.css`: simple styling so the page can be inspected in a browser.
-- `garden-workshop.svg`: sample image asset.
+- `index.html`: sample page with intentional accessibility issues.
+- `styles.css`: starter styles with some focus, contrast, reflow, and motion issues to audit.
 
 ## Practice goal
 
-Improve:
+Audit and remediate:
 
-- page title
-- meta description
-- crawlable/descriptive links
-- canonical decision
-- image filename/context/alt decision
-- social preview metadata
-- structured-data decision
-- ranking-claim limits
+- landmarks and heading structure
+- link and button names
+- keyboard access and visible focus
+- zoom/reflow behavior
+- contrast
+- form labels and required states
+- table caption/headers
+- image alternatives
+- motion preference
 
-Document each change and what evidence supports it.
+Document each issue, fix, and retest result.
